@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var messageLabel: UILabel!
+    
+    @IBOutlet weak var enterMessageName: UITextField!
+    
+    @IBOutlet weak var enterMessageText: UITextField!
+    
+    
+    @IBOutlet weak var mailButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +30,16 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func sendMailButtonPressed(sender: AnyObject) {
+        // my function to execute code when send message button is pressed
+        messageLabel.text = "Hello " + enterMessageName.text
+        messageLabel.text = messageLabel.text! + " " + enterMessageText.text
+        messageLabel.hidden = false
+        enterMessageText.text = ""
+        enterMessageText.resignFirstResponder() // remove keyboard
+        enterMessageName.text = enterMessageName.text
+        messageLabel.textColor = UIColor.redColor()
+        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+    }
 }
 

@@ -13,6 +13,8 @@
 		5D6964E019C70E8700BB9263 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6964DF19C70E8700BB9263 /* Images.xcassets */; };
 		5D6964E319C70E8700BB9263 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D6964E119C70E8700BB9263 /* LaunchScreen.xib */; };
 		5D6964EF19C70E8800BB9263 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6964EE19C70E8800BB9263 /* PostcardTests.swift */; };
+		5D6964F919C84BDC00BB9263 /* IMG_1071.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5D6964F819C84BDC00BB9263 /* IMG_1071.JPG */; };
+		5D6964FB19C8629F00BB9263 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6964FA19C8629F00BB9263 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5D6964E819C70E8800BB9263 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6964ED19C70E8800BB9263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D6964EE19C70E8800BB9263 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		5D6964F819C84BDC00BB9263 /* IMG_1071.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1071.JPG; sourceTree = "<group>"; };
+		5D6964FA19C8629F00BB9263 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		5D6964D619C70E8700BB9263 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D6964FA19C8629F00BB9263 /* AlbertEinsteinStamp.jpg */,
+				5D6964F819C84BDC00BB9263 /* IMG_1071.JPG */,
 				5D6964D719C70E8700BB9263 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6964F919C84BDC00BB9263 /* IMG_1071.JPG in Resources */,
 				5D6964DE19C70E8700BB9263 /* Main.storyboard in Resources */,
+				5D6964FB19C8629F00BB9263 /* AlbertEinsteinStamp.jpg in Resources */,
 				5D6964E319C70E8700BB9263 /* LaunchScreen.xib in Resources */,
 				5D6964E019C70E8700BB9263 /* Images.xcassets in Resources */,
 			);
