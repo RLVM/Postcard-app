@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: AnyObject) {
         // my function to execute code when send message button is pressed
         // adding a second comment for github exercise
+        // adding a third comment due to previous hiccup
         messageLabel.text = "Hello " + enterMessageName.text
         messageLabel.text = messageLabel.text! + " " + enterMessageText.text
         messageLabel.hidden = false
